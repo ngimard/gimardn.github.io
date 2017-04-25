@@ -1,0 +1,27 @@
+#conteneur
+{
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
+}
+h4
+{
+	text-decoration : underline;
+
+}
+h1
+{
+	text-align : center;
+	color : white;
+	background-color: purple;
+}
+.titre
+{
+	color : purple;
+	width : bold;
+
+}
+.motivation
+{
+	font-size : 1.2em;
+}
