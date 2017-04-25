@@ -1,8 +1,29 @@
-h1
+#conteneur
 {
-	font-size: underline;
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
 }
-h2
+.en-tête
 {
-	color: blue;
+	background-color : purple;
+	text-align: center;
+	color : white;
+
+}
+.information, .menu
+{
+	margin-bottom: 100px;
+	font-size : 1.2em;
+}
+.contact
+{
+	background-color : purple;
+	text-align: center;
+	color : white;
+	height : 150px;
+}
+.imageflottante
+{
+	float: left;
 }
