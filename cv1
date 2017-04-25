@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Le site du Bitcoin </title>
+	<meta charset="utf-8">
+  <link rel = "stylesheet" href="cv.css">
+</head>
+<body>
+<div id="conteneur">
+    <div class="experience">
+    <h1>Expériences professionnelles</h1>
+    <ul> 
+        <span class = "titre">2016 › Intervenante - Complétude (Ile-De-France) Poste actuel</span>
+        <li><strong> Accompagnement personnalisé</strong>
+            <ol>Assister l’élève dans la réduction de ses lacunes en mathématiques</ol>
+            <ol> Encadrer deux élèves de Terminale dans la préparation de leur baccalauréat (ES et STMG)  </ol>
+        </li>
+    </ul>
+    <ul>
+        <span class = "titre">2011  › Assistante Préparatrice -Pharmacie de l’Océan (Sainte-Anne) </span>
+        <li> <strong>Rangement des médicaments</strong>
+            <ol> Classer quotidiennement les médicaments en fonction des dates d’expiration, type et vignettes du taux de remboursement</ol>
+        </li>
+        <li> <strong>Accueil et Caisse</strong>
+            <ol>Accueillir des consommateurs et apporter de renseignements </ol>
+            <ol>Préparer l’ordonnance des patients avec l’aide des préparatrices et/ou docteur en pharmacie </ol>
+        </li>
+    </ul>
+    </div>
+
+    <div class="formation">
+    <h1> Formations </h1>
+    <ul>
+        <span class = "titre">2016 ›</span> 1ère année de cycle ingénieur - Ecole Supérieur d’Ingénieur Léonard De Vinci (92400) 
+        <dl>
+        <span class = "titre">PING :</span>  Réalisation d’un distributeur de médicaments connecté 
+        <br/>
+        Objectif : fabriquer un système de distribution automatique muni d’une application afin de faciliter l’échange entre consommateurs et professionnels.
+        </dl> 
+        <span class ="titre">2015 -2016 › </span>Classe préparatoire aux grandes écoles MP -  lycée Condorcet (75009)
+        <dl>
+        <span class = "titre">TIPE : </span> Résistance des Matériaux
+        <br/>
+        Etude de l’élasticité des matériaux à l’échelle microscopique dans le but de comprendre la signification physique du module de YOUNG et le choix des matériaux parasismiques.
+        </dl>
+        <span class="titre">2014 -2015 › </span>Classe préparatoire aux grandes écoles MPSI -  lycée Condorcet (75009)
+        <br/>
+        2014 › <strong>Baccalauréat scientifique</strong> - <strong>Spécialité Mathématiques</strong> – <strong>MENTION TRES BIEN </strong>– lycée Yves Leborgne (97180)
+        <br/>
+        2011 › <strong>Brevet des collèges</strong> - <strong>MENTION TRES BIEN</strong> – lycée Eugène Yssap (97180)
+    </ul>
+    </div>
+    <div id="supplement">  <!--Pour faire tenir l'intégralité du curriculum vitae sur une page-->
+        <div class ="competences">
+        <h1> Compétences </h1>
+        <ul> <span class="titre">INFORMATIQUES</span>
+            <li>Langage informatique : C, Python, Scilab, HTML, CSS</li>
+            <li>Traitement de base de données avec MySql</li>
+            <li>Modélisation : Solidworks</li>
+            <li>Bureautique :  Excel, Word, Power Point, Publisher</li>
+        </ul>
+        <ul> <span class="titre">LINGUISTIQUES</span>
+            <li>Anglais : Courant, <strong> TOEFL : 597/677</strong></li>
+            <li>Espagnol : Intermédiaire</li>
+         </ul>
+        <ul> <span class="titre">PROGETS</span>
+        <li>PING :  Distributeur de médicaments connecté</li>
+        <li>TIPE :  Résistance des Matériaux</li>
+        </ul>
+        </div>
+        <div class ="intérêts">
+        <h1> Centres d'intérêts </h1>
+        <ul> <span class="titre">ASSOCIATIONS</span>
+            <li>Jeunesse Outre-Mer : Réseau de la jeunesse de l’Outre-Mer.</li>
+            <li>Elles Bougent : Réseau de femmes ingénieures et techniciennes </li>
+        </ul>
+        <ul> <span class="titre">SPORTS</span>
+        <li>Danse Contemporaine et Moderne Jazz : 10 ans de pratique. </li>
+        <li>Natation et sports nautiques : 10 ans de pratique.</li>
+        <li>Judo : amateur</li>
+        </ul>
+        <ul> <span class="titre">HOBBIES</span>
+        <li>Musique</li>
+        <li>Art audiovisuel / art graphique</li>
+        <li>Voyages : Angleterre, Caraïbes</li>
+        </ul>
+        </div>
+        <div>
+        <h1> Informations supplémentaires</h1>
+            <p> permis B</p>
+            <p> Contact uniquement par l'intermédiaire en cliquant ici : <a href="http://linkedin.com/in/nakorey-gimard-553355126">Contacter Nakorey !</a> 
+        </div>
+    </div>
+</div>
+</body>
+</html>
