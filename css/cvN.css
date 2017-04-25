@@ -1,0 +1,22 @@
+#conteneur
+{
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
+}
+#supplement
+{
+ 	display : flex;
+ 	justify-content: space-between;
+}
+h1
+{
+	background-color : purple;
+	text-align: center;
+	color : white;
+}
+.titre
+{
+	color : purple;
+	width : bold;
+}
