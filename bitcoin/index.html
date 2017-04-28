@@ -5,64 +5,111 @@
 
 <title>Le site du Bitcoin</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
+
+
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="https://blackrockdigital.github.io/startbootstrap-sb-admin/font-awesome/css/font-awesome.min.css"rel="stylesheet" type="text/css">
+<link rel = "stylesheet" href="gimardn.github.io/css/style.css">
 
-<script type="text/javascript" src="http://gimardn.github.io/js/bitcoin.js" defer></script>
+<!-- BITCOIN -->
+<script type="text/javascript" src="../js/bitcoin.js" defer></script>
 </head>
 <body>
-	<div class="container theme-showcase" role="main">
-		<div class="definition">
-			<h1>Bitcoin</h1>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div id="navigation">
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a title="CV Nakorey GIMARD" role ="button" href="CV_Nakorey_Gimard.html">Découvrir Nakorey</a>
+					<li class="active"><a title="CV Ruth Kueviakoe" role="button" href="CV_Ruth_Kueviakoe.html">Découvrir Ruth</a>
+					<li class="active"><a role="button" title="Bitcoin"  href="/bitcoin/index.html">Bitcoin</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
+	</nav>
 	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-yellow">
-		
-								<div class="col-xs-9 text-right">
-									 <h4> Information sur le bitcoin: </h4>
-           								 <code id="info" class="json kljs"></code>
-           								 <script type="text/javascript">info();</script>	
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
 								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_block_number"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-primary">
-								<div class="col-xs-9 text-right">
-									<h4> Information sur le mining : </h4> 
-            								<code id="mininginfo" class="json kljs"></code>
-           								 <script type="text/javascript">mining();</script>
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
 								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_network_hash"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-red">
-								<div class="col-xs-9 text-right">
-									<h4> Information sur le blockchain : </h4>
-            								<code id="blockchain" class="json kljs"></code>
-            								<script type="text/javascript">blockchaininfo();</script>
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
 								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_blocks"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-green">
-								<div class="col-xs-9 text-right">
-									<h4> Information sur le peer: </h4> 
-           								 <code id="peerinfo" class="json kljs"></code>
-           								 <script type="text/javascript">peer();</script>
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-money fa-5x"></i>
 								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_usd_price"></span>
+									</h2>
+									<div> / bitcoin</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<footer class="footer">
+		<div class ="merci"> 
+			<p>Merci d'avoir visité notre visite!</p>
+		</div>
+	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 </html>
