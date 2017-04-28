@@ -1,6 +1,5 @@
 #cv
 {
-	margin-top : 100px;
 	display : flex;
 	flex-direction : column;
 	justify-content: center;
@@ -20,8 +19,4 @@ h1
 {
 	color : purple;
 	width : bold;
-}
-#navigation
-{
-	background-color : purple;
 }
