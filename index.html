@@ -1,45 +1,56 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<title> Le site du Bitcoin </title>
-<meta charset="utf-8">
-<link rel = "stylesheet" href="css/style.css">
+<meta charset="UTF-8" />
+
+<title>Le site du Bitcoin</title>
+<!-- BOOTSTRAP -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel = "stylesheet" href="style.css">
 </head>
 <body>
-<div id="conteneur">
-    <div class="en-tête">
-    <h1><strong> ELECTIF IF </strong></h1>
-    <h3> Nakorey GIMARD (IF 3)  Ruth KUEVIAKOE (IF 5)</h3>
-    </div>
-		<div class="menu">
-    	<h3> Menu</h3>
-	<ul>
-            <li><a href="CV_Nakorey_Gimard.html">Découvrir Nakorey</a></li>
-	    <li><a href="CV_Ruth_Kueviakoe.html">Découvrir Ruth</a></li>
-        </ul>
-	<ul>
-	    <li> <a href="bitcoin/index.html">Bitcoin</a>
-	</ul>
-    </div>
-    <div class="information">
-    <p> 
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<!--a href="/" class="navbar-brand" rel="home"><img
+					style="max-width: 300px;"
+					src="http://mubiz.com/images/mubiz/mubiz-logo-white.png"
+					alt="Mubiz logo" /></a-->
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" role="button" title="CV Nakorey GIMARD"
+						aria-haspopup="true" aria-expanded="false" href="CV_Nakorey_Gimard.html">Découvrir Nakorey</a>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" role="button" title="CV Ruth Kueviakoe"
+						aria-haspopup="true" aria-expanded="false" href="CV_Ruth_Kueviakoe.html">Découvrir Ruth</a>
+					<li class="active"><a title="Bitcoin exploreur" href="/bitcoin/index.html">Bitcoin</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<section>
+		<p> 
     <img src = "ESILV.jpg" alt = "logo" class ="imageflottante"/>
     Ce site a pour objectif de vous faire découvrir la transformation numérique qui s'effectue dans la finance. 
     Vous pourrez notamment vous informer sur les deux révolutions de cette ingénieurie : <em><strong>le bitcoin et le blockchain</strong></em>.
     Ce projet vous est proposé par l'ESILV, école supérieure des ingénieurs de Léonard de Vinci, dans le but d'aider leurs étudiants à déterminer la majeure dans laquelle ils souhaitent se spécialiser.
     <br/> 
-    Pour plus d'informations sur les formations et les actions de l'école veuillez consulter leur site internet : <a href = "http://www.esilv.fr/">Allez plus loin </a>
-    </p>
-    </div>
-    <div class ="contact"> 
-    <br/>
-     <p> Ruth KUEVIAKOE<br/> 
-      <br/>
-      Nakorey GIMARD </p>
-    </div>
-</div>
+    Pour plus d'informations sur les formations et les actions de l'école veuillez consulter leur site internet : <a href = "http://www.esilv.fr/">Allez plus loin</a>
+		</p>
+	</section>
+
+	<footer class="footer">
+		<p>Merci de votre visite !</p>
+	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 </html>
