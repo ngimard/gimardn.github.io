@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function blockchaininfo() {
 	$.ajax({
 		url : "http://bitcoin.mubiz.com/blockchaininfo",
 		dataType : "json",
@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 });
 
-$(document).ready(function() {
+$(document).ready(function info() {
 	$.ajax({
 		url : "http://bitcoin.mubiz.com/info",
 		dataType : "json",
