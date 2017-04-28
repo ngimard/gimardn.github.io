@@ -7,8 +7,9 @@
 }
 .information
 {
-	
+	margin-top : 100px;
 	font-size : 1.2em;
+	margin-bottom : 100px;
 }
 
 .merci
@@ -16,7 +17,7 @@
 	background-color : purple;
 	text-align: center;
 	color : white;
-	height : 50px;
+	height : 100px;
 }
 h1,h3
 {
