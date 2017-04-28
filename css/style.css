@@ -1,10 +1,5 @@
-#conteneur
-{
-	display : flex;
-	flex-direction : column;
-	justify-content: center;
-}
-.en-tête
+
+#nav-bar
 {
 	background-color : purple;
 	text-align: center;
@@ -12,19 +7,10 @@
 	height : 150px;
 
 }
-.information, .menu
-{
-	margin-bottom: 100px;
-	font-size : 1.2em;
-}
-.contact
+#contact
 {
 	background-color : purple;
 	text-align: center;
 	color : white;
 	height : 150px;
-}
-.imageflottante
-{
-	float: left;
 }
