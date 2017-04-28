@@ -4,8 +4,7 @@
 <meta charset="UTF-8" />
 
 <title>Le site du Bitcoin</title>
-<meta name="viewport"
-	content="width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
@@ -27,14 +26,10 @@
 					<div class="panel panel-yellow">
 						<div class="panel-heading">
 							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-tasks fa-5x"></i>
-								</div>
 								<div class="col-xs-9 text-right">
-									<h2>
-										<span id="bitcoin_block_number"></span>
-									</h2>
-									<div>Blocks</div>
+									 <h4> Information sur le bitcoin: </h4>
+           								 <code id="info" class="json kljs"></code>
+           								 <script type="text/javascript">info();</script>	
 								</div>
 							</div>
 						</div>
@@ -44,14 +39,10 @@
 					<div class="panel panel-primary">
 						<div class="panel-heading">
 							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-tasks fa-5x"></i>
-								</div>
 								<div class="col-xs-9 text-right">
-									<h2>
-										<span id="bitcoin_network_hash"></span>
-									</h2>
-									<div>Blocks</div>
+									<h4> Information sur le mining : </h4> 
+            								<code id="mininginfo" class="json kljs"></code>
+           								 <script type="text/javascript">mining();</script>
 								</div>
 							</div>
 						</div>
@@ -61,14 +52,10 @@
 					<div class="panel panel-red">
 						<div class="panel-heading">
 							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-tasks fa-5x"></i>
-								</div>
 								<div class="col-xs-9 text-right">
-									<h2>
-										<span id="bitcoin_blocks"></span>
-									</h2>
-									<div>Blocks</div>
+									<h4> Information sur le blockchain : </h4>
+            								<code id="blockchain" class="json kljs"></code>
+            								<script type="text/javascript">blockchaininfo();</script>
 								</div>
 							</div>
 						</div>
@@ -78,14 +65,10 @@
 					<div class="panel panel-green">
 						<div class="panel-heading">
 							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-money fa-5x"></i>
-								</div>
 								<div class="col-xs-9 text-right">
-									<h2>
-										<span id="bitcoin_usd_price"></span>
-									</h2>
-									<div> bitcoin</div>
+									<h4> Information sur le peer: </h4> 
+           								 <code id="peerinfo" class="json kljs"></code>
+           								 <script type="text/javascript">peer();</script>
 								</div>
 							</div>
 						</div>
