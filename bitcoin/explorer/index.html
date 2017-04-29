@@ -28,16 +28,44 @@
 	 <div class="jumbotron">
 	 </div>
 <div class="container">
-	<form>
-  	<div class="form-group">
-    	<label for="Adress">Adresse</label>
-    	<input type="adress" class="form-control" id="adress1" placeholder="adress">
-  	</div>
-	<output type="adress" class="form-control" id="adress">
-            <code id="adress" class="json kljs"></code>
-            <script type="text/javascript">adress();</script>
-	</output>
-	</form>	  
+	<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<form>
+  						<div class="form-group">
+    						<label for="Adress">Adresse</label>
+						<div class="input-group">
+    						<input type="adress" class="form-control" id="adress1" placeholder="adress"> 
+						</div>
+						<div class="output-group">
+						<output type="adress" class="form-control" id="adress">
+            						<code id="adress" class="json kljs"></code>
+            						<script type="text/javascript">adress();</script>
+						</output>
+						</div>
+  						</div>
+					</form>	 
+				</div>
+	</div>
+	<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<form class="form-inline">
+ 						 <div class="form-group">
+   						 <label class="sr-only" for="InputAmount">Amount (in dollars)</label>
+    						<div class="input-group">
+      							<div class="input-group-addon">$</div>
+      								<input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+     						 		<div class="input-group-addon">.00</div>
+   								 </div>
+ 						 </div>
+						<div class="output-group">
+						<output type="adress" class="form-control" id="transaction">
+            						<code id="transaction" class="json kljs"></code>
+            						<script type="text/javascript">transaction();</script>
+						</output>
+						</div>
+					</form>	 
+				</div>
+	</div>
 </div>
 </section>
 
