@@ -21,7 +21,7 @@ function syntaxHighlight(json) {
     });
 }
 
-var obj = {a:1, 'b':'foo', c:[false,'false',null, 'null', {d:{e:1.3e5,f:'1.3e5'}}]};
+var obj = id;
 var str = JSON.stringify(obj, undefined, 4);
 
 output(str);
