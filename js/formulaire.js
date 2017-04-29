@@ -21,5 +21,6 @@ function syntaxHighlight(json) {
     });
 }
 
+var str = JSON.stringify(id, undefined, 4);
 output(str);
 output(syntaxHighlight(str));
