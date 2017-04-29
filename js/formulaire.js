@@ -21,8 +21,7 @@ function syntaxHighlight(json) {
     });
 }
 
-var obj = id;
+var obj = { "blocks": 447077};
 var str = JSON.stringify(obj, undefined, 4);
-
 output(str);
 output(syntaxHighlight(str));
