@@ -1,4 +1,4 @@
-function adressAPI()
+function adresseAPI()
 {
   var isAddress = /^[0-9a-zA-Z]{34}$/.test(data);
    var xmlhttp = new XMLHttpRequest();
