@@ -47,11 +47,11 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#blockchaininfo').append(data.blocks);
+			$('#blockchain').append(data.blocks);
 		},
 
 		error : function(xhr, status, err) {
-			$('#blockchaininfo').append(err+" N/A");
+			$('#blockchain').append(err+" N/A");
 		}
 	});
 	});
