@@ -47,6 +47,6 @@ function blockchaininfo()
         document.getElementById("blockchain").innerHTML = jsonPretty;
     }
 };
-xmlhttp.open("GET", "https://bitcoin.mubiz.com/blockchaininfo", true);
+xmlhttp.open("GET", "https://api.blockcypher.com/v1/btc/main", true);
 xmlhttp.send();
 }
